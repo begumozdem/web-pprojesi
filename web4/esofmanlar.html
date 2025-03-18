@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eşofmanlar - Özel Tasarım Giyim Mağazası</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html" style="color: white; text-decoration: none;">Özel Tasarım Giyim Mağazası</a></h1>
+        </div>
+    </header>
+
+    <div class="hero-section" style="height: 250px;">
+        <h1>Eşofmanlar</h1>
+        <p>Spor yaparken veya günlük hayatta rahatlıkla kullanabileceğiniz eşofmanlar.</p>
+    </div>
+
+    <div class="container">
+        <div class="breadcrumb-section">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                <li class="breadcrumb-item active">Eşofmanlar</li>
+            </ul>
+        </div>
+
+        <div class="category-header">
+            <h1>Eşofman Koleksiyonu</h1>
+            <p>Rahatlığı ve şıklığı bir arada sunan eşofman takımlarımızı keşfedin. Spor yaparken veya günlük hayatta rahatlıkla kullanabileceğiniz yüksek kaliteli ürünlerimiz sizleri bekliyor.</p>
+        </div>
+
+        <div class="product-filters">
+            <h3 class="filter-title">Filtrele</h3>
+            <div class="filter-options">
+                <div class="filter-option active">Tümü</div>
+                <div class="filter-option">Erkek</div>
+                <div class="filter-option">Kadın</div>
+                <div class="filter-option">Unisex</div>
+                <div class="filter-option">Çocuk</div>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <!-- ÜRÜN 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Esofman1" alt="Klasik Eşofman Takımı">
+                </div>
+                <div class="product-info">
+                    <h3>Klasik Eşofman Takımı</h3>
+                    <p class="price">349.99 TL</p>
+                    <p class="description">Pamuklu kumaştan üretilen, rahat kalıplı alt-üst klasik eşofman takımı.</p>
+                    <button class="btn" onclick="addToCart('Klasik Eşofman Takımı', 349.99, 'navy')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Esofman2" alt="Eşofman Altı">
+                </div>
+                <div class="product-info">
+                    <h3>Eşofman Altı</h3>
+                    <p class="price">199.99 TL</p>
+                    <p class="description">Cepli, rahat ve şık tasarımlı eşofman altı.</p>
+                    <button class="btn" onclick="addToCart('Eşofman Altı', 199.99, 'black')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Esofman3" alt="Slim Fit Eşofman">
+                </div>
+                <div class="product-info">
+                    <h3>Slim Fit Eşofman</h3>
+                    <p class="price">249.99 TL</p>
+                    <p class="description">Vücudu saran, modern tasarımlı slim fit eşofman altı.</p>
+                    <button class="btn" onclick="addToCart('Slim Fit Eşofman', 249.99, 'gray')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Esofman4" alt="Kapri Eşofman">
+                </div>
+                <div class="product-info">
+                    <h3>Kapri Eşofman</h3>
+                    <p class="price">179.99 TL</p>
+                    <p class="description">Yaz ayları için ideal, diz altı uzunluğunda kapri eşofman.</p>
+                    <button class="btn" onclick="addToCart('Kapri Eşofman', 179.99, 'light-gray')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Esofman5" alt="Şeritli Eşofman Takımı">
+                </div>
+                <div class="product-info">
+                    <h3>Şeritli Eşofman Takımı</h3>
+                    <p class="price">399.99 TL</p>
+                    <p class="description">Yan şeritli, modern görünümlü alt-üst eşofman takımı.</p>
+                    <button class="btn" onclick="addToCart('Şeritli Eşofman Takımı', 399.99, 'red')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Esofman6" alt="Bağcıklı Eşofman">
+                </div>
+                <div class="product-info">
+                    <h3>Bağcıklı Eşofman</h3>
+                    <p class="price">229.99 TL</p>
+                    <p class="description">Bağcıklı bel ve paçası lastikli rahat eşofman altı.</p>
+                    <button class="btn" onclick="addToCart('Bağcıklı Eşofman', 229.99, 'green')">Sepete Ekle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shopping Cart Icon -->
+    <div class="shopping-cart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        <div class="cart-count">0</div>
+    </div>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal">
+        <div class="close-modal">✕</div>
+        <div class="cart-content">
+            <h2>Alışveriş Sepeti</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                Toplam: <span class="cart-total-value">0.00 TL</span>
+            </div>
+            <button class="checkout-btn">Ödeme Yap</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kategoriler</h3>
+                <ul>
+                    <li><a href="tisortler.html">Tişörtler</a></li>
+                    <li><a href="hirkalar.html">Hırkalar</a></li>
+                    <li><a href="atkilar.html">Atkılar</a></li>
+                    <li><a href="sweatler.html">Sweatler</a></li>
+                    <li><a href="esofmanlar.html">Eşofmanlar</a></li>
+                    <li><a href="taraftar_setleri.html">Taraftar Setleri</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Yardım</h3>
+                <ul>
+                    <li><a href="#">Sipariş Takibi</a></li>
+                    <li><a href="#">İade ve Değişim</a></li>
+                    <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                    <li><a href="#">Ödeme Seçenekleri</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kurumsal</h3>
+                <ul>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#">Kariyer</a></li>
+                    <li><a href="#">Mağazalarımız</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <ul>
+                    <li>0850 123 45 67</li>
+                    <li>info@ozeltasarimgiyim.com</li>
+                    <li>İstanbul, Türkiye</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

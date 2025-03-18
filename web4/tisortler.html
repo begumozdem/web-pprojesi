@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tişörtler - Özel Tasarım Giyim Mağazası</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html" style="color: white; text-decoration: none;">Özel Tasarım Giyim Mağazası</a></h1>
+        </div>
+    </header>
+
+    <div class="hero-section" style="height: 250px;">
+        <h1>Tişörtler</h1>
+        <p>Özel tasarım, rahat ve şık tişört modellerimizle tarzınızı yansıtın.</p>
+    </div>
+
+    <div class="container">
+        <div class="breadcrumb-section">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                <li class="breadcrumb-item active">Tişörtler</li>
+            </ul>
+        </div>
+
+        <div class="category-header">
+            <h1>Tişört Koleksiyonu</h1>
+            <p>Günlük kullanıma uygun, rahat ve şık tişört modellerimizi keşfedin. Özel tasarımlarımız, yüksek kaliteli kumaşlar ve çeşitli beden seçenekleri ile size en uygun tişörtü bulmanızı sağlıyoruz.</p>
+        </div>
+
+        <div class="product-filters">
+            <h3 class="filter-title">Filtrele</h3>
+            <div class="filter-options">
+                <div class="filter-option active">Tümü</div>
+                <div class="filter-option">Erkek</div>
+                <div class="filter-option">Kadın</div>
+                <div class="filter-option">Unisex</div>
+                <div class="filter-option">Çocuk</div>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <!-- ÜRÜN 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Tisort1" alt="Basic Beyaz Tişört">
+                </div>
+                <div class="product-info">
+                    <h3>Basic Beyaz Tişört</h3>
+                    <p class="price">129.99 TL</p>
+                    <p class="description">%100 pamuklu kumaştan üretilen, rahat ve şık basic beyaz tişört.</p>
+                    <button class="btn" onclick="addToCart('Basic Beyaz Tişört', 129.99, 'white')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Tisort2" alt="Baskılı Siyah Tişört">
+                </div>
+                <div class="product-info">
+                    <h3>Baskılı Siyah Tişört</h3>
+                    <p class="price">149.99 TL</p>
+                    <p class="description">Özel tasarım baskılı, %100 pamuklu kumaştan üretilen siyah tişört.</p>
+                    <button class="btn" onclick="addToCart('Baskılı Siyah Tişört', 149.99, 'black')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Tisort3" alt="V Yaka Tişört">
+                </div>
+                <div class="product-info">
+                    <h3>V Yaka Tişört</h3>
+                    <p class="price">139.99 TL</p>
+                    <p class="description">V yaka tasarımı ile şık bir görünüm sunan, rahat ve esnek kumaşlı tişört.</p>
+                    <button class="btn" onclick="addToCart('V Yaka Tişört', 139.99, 'blue')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Tisort4" alt="Oversize Tişört">
+                </div>
+                <div class="product-info">
+                    <h3>Oversize Tişört</h3>
+                    <p class="price">159.99 TL</p>
+                    <p class="description">Geniş kalıplı, rahat ve modern tasarımlı oversize tişört.</p>
+                    <button class="btn" onclick="addToCart('Oversize Tişört', 159.99, 'gray')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Tisort5" alt="Polo Yaka Tişört">
+                </div>
+                <div class="product-info">
+                    <h3>Polo Yaka Tişört</h3>
+                    <p class="price">179.99 TL</p>
+                    <p class="description">Klasik polo yaka tasarımlı, şık ve rahat tişört.</p>
+                    <button class="btn" onclick="addToCart('Polo Yaka Tişört', 179.99, 'green')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Tisort6" alt="Baskılı Renkli Tişört">
+                </div>
+                <div class="product-info">
+                    <h3>Baskılı Renkli Tişört</h3>
+                    <p class="price">149.99 TL</p>
+                    <p class="description">Canlı renkli, özel tasarım baskılı, pamuklu kumaştan üretilen tişört.</p>
+                    <button class="btn" onclick="addToCart('Baskılı Renkli Tişört', 149.99, 'red')">Sepete Ekle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shopping Cart Icon -->
+    <div class="shopping-cart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        <div class="cart-count">0</div>
+    </div>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal">
+        <div class="close-modal">✕</div>
+        <div class="cart-content">
+            <h2>Alışveriş Sepeti</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                Toplam: <span class="cart-total-value">0.00 TL</span>
+            </div>
+            <button class="checkout-btn">Ödeme Yap</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kategoriler</h3>
+                <ul>
+                    <li><a href="tisortler.html">Tişörtler</a></li>
+                    <li><a href="hirkalar.html">Hırkalar</a></li>
+                    <li><a href="atkilar.html">Atkılar</a></li>
+                    <li><a href="sweatler.html">Sweatler</a></li>
+                    <li><a href="esofmanlar.html">Eşofmanlar</a></li>
+                    <li><a href="taraftar_setleri.html">Taraftar Setleri</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Yardım</h3>
+                <ul>
+                    <li><a href="#">Sipariş Takibi</a></li>
+                    <li><a href="#">İade ve Değişim</a></li>
+                    <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                    <li><a href="#">Ödeme Seçenekleri</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kurumsal</h3>
+                <ul>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#">Kariyer</a></li>
+                    <li><a href="#">Mağazalarımız</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <ul>
+                    <li>0850 123 45 67</li>
+                    <li>info@ozeltasarimgiyim.com</li>
+                    <li>İstanbul, Türkiye</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

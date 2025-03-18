@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hırkalar - Özel Tasarım Giyim Mağazası</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html" style="color: white; text-decoration: none;">Özel Tasarım Giyim Mağazası</a></h1>
+        </div>
+    </header>
+
+    <div class="hero-section" style="height: 250px;">
+        <h1>Hırkalar</h1>
+        <p>Soğuk havalarda şıklığınızdan ödün vermeden sizi ısıtacak hırkalar.</p>
+    </div>
+
+    <div class="container">
+        <div class="breadcrumb-section">
+            <ul class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                <li class="breadcrumb-item active">Hırkalar</li>
+            </ul>
+        </div>
+
+        <div class="category-header">
+            <h1>Hırka Koleksiyonu</h1>
+            <p>Günlük kullanıma uygun, rahat ve şık hırka modellerimizi keşfedin. Her mevsim kullanabileceğiniz yüksek kaliteli kumaşlar ve çeşitli beden seçenekleri ile size en uygun hırkayı bulmanızı sağlıyoruz.</p>
+        </div>
+
+        <div class="product-filters">
+            <h3 class="filter-title">Filtrele</h3>
+            <div class="filter-options">
+                <div class="filter-option active">Tümü</div>
+                <div class="filter-option">Erkek</div>
+                <div class="filter-option">Kadın</div>
+                <div class="filter-option">Unisex</div>
+                <div class="filter-option">Çocuk</div>
+            </div>
+        </div>
+
+        <div class="product-grid">
+            <!-- ÜRÜN 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hirka1" alt="Klasik Düğmeli Hırka">
+                </div>
+                <div class="product-info">
+                    <h3>Klasik Düğmeli Hırka</h3>
+                    <p class="price">249.99 TL</p>
+                    <p class="description">Yumuşak dokulu, klasik düğmeli tasarıma sahip rahat ve şık hırka.</p>
+                    <button class="btn" onclick="addToCart('Klasik Düğmeli Hırka', 249.99, 'beige')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hirka2" alt="Kapüşonlu Hırka">
+                </div>
+                <div class="product-info">
+                    <h3>Kapüşonlu Hırka</h3>
+                    <p class="price">299.99 TL</p>
+                    <p class="description">Kapüşonlu, cepli ve rahat kalıplı triko hırka.</p>
+                    <button class="btn" onclick="addToCart('Kapüşonlu Hırka', 299.99, 'gray')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hirka3" alt="Uzun Hırka">
+                </div>
+                <div class="product-info">
+                    <h3>Uzun Hırka</h3>
+                    <p class="price">329.99 TL</p>
+                    <p class="description">Diz altı uzunluğunda, cepli ve rahat kalıplı triko hırka.</p>
+                    <button class="btn" onclick="addToCart('Uzun Hırka', 329.99, 'brown')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 4 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hirka4" alt="İnce Triko Hırka">
+                </div>
+                <div class="product-info">
+                    <h3>İnce Triko Hırka</h3>
+                    <p class="price">199.99 TL</p>
+                    <p class="description">Bahar ayları için ideal, ince triko kumaştan üretilmiş şık hırka.</p>
+                    <button class="btn" onclick="addToCart('İnce Triko Hırka', 199.99, 'blue')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 5 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hirka5" alt="Desenli Hırka">
+                </div>
+                <div class="product-info">
+                    <h3>Desenli Hırka</h3>
+                    <p class="price">279.99 TL</p>
+                    <p class="description">Etnik desenli, düğmeli kapama ve cepli özel tasarım hırka.</p>
+                    <button class="btn" onclick="addToCart('Desenli Hırka', 279.99, 'multicolor')">Sepete Ekle</button>
+                </div>
+            </div>
+            
+            <!-- ÜRÜN 6 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://via.placeholder.com/300x300?text=Hirka6" alt="Fermuarlı Hırka">
+                </div>
+                <div class="product-info">
+                    <h3>Fermuarlı Hırka</h3>
+                    <p class="price">269.99 TL</p>
+                    <p class="description">Tam boy fermuarlı, spor tarzda rahat triko hırka.</p>
+                    <button class="btn" onclick="addToCart('Fermuarlı Hırka', 269.99, 'darkblue')">Sepete Ekle</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shopping Cart Icon -->
+    <div class="shopping-cart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+        <div class="cart-count">0</div>
+    </div>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal">
+        <div class="close-modal">✕</div>
+        <div class="cart-content">
+            <h2>Alışveriş Sepeti</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                Toplam: <span class="cart-total-value">0.00 TL</span>
+            </div>
+            <button class="checkout-btn">Ödeme Yap</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Kategoriler</h3>
+                <ul>
+                    <li><a href="tisortler.html">Tişörtler</a></li>
+                    <li><a href="hirkalar.html">Hırkalar</a></li>
+                    <li><a href="atkilar.html">Atkılar</a></li>
+                    <li><a href="sweatler.html">Sweatler</a></li>
+                    <li><a href="esofmanlar.html">Eşofmanlar</a></li>
+                    <li><a href="taraftar_setleri.html">Taraftar Setleri</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Yardım</h3>
+                <ul>
+                    <li><a href="#">Sipariş Takibi</a></li>
+                    <li><a href="#">İade ve Değişim</a></li>
+                    <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                    <li><a href="#">Ödeme Seçenekleri</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kurumsal</h3>
+                <ul>
+                    <li><a href="#">Hakkımızda</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    <li><a href="#">Kariyer</a></li>
+                    <li><a href="#">Mağazalarımız</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <ul>
+                    <li>0850 123 45 67</li>
+                    <li>info@ozeltasarimgiyim.com</li>
+                    <li>İstanbul, Türkiye</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
